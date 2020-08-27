@@ -17,7 +17,7 @@ const valor = 1.99
 console.log("Lojas Quase Dois - Tabela de Preços")
 
 while (contador<50){
-    console.log(`${numero} - R$ ${valor*numero}`)
+    console.log(`${numero} - R$ ${(valor*numero).toFixed(2)}`)
     numero ++
     contador ++
 }
